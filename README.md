@@ -8,7 +8,7 @@
 PC installed with SCILAB. 
 
 # PROGRAM: 
-clc;
+```clc;
 clear;
 
 
@@ -47,7 +47,7 @@ xtitle("Magnitude Spectrum using FFT");
 subplot(2,1,2);
 plot2d3(f, atan(imag(X_fft), real(X_fft)));
 xtitle("Phase Spectrum using FFT");
-
+```
 # OUTPUT: 
 <img width="920" height="740" alt="Screenshot 2025-09-22 035124" src="https://github.com/user-attachments/assets/f11508aa-5144-4e5d-9eec-82f3f018242e" />
 
